@@ -94,25 +94,31 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 418265c0f28d5433cbc5ad31b647cb30, type: 3}
   m_Name: PostProcessOutline
   m_EditorClassIdentifier: 
-  active: 1
+  active: 0
   enabled:
     overrideState: 1
     value: 1
   scale:
     overrideState: 0
     value: 1
+  color:
+    overrideState: 0
+    value: {r: 1, g: 1, b: 1, a: 1}
   depthThreshold:
-    overrideState: 0
+    overrideState: 1
     value: 1.5
-  normalThreshold:
-    overrideState: 0
-    value: 0.4
   depthNormalThreshold:
     overrideState: 0
     value: 0.5
   depthNormalThresholdScale:
     overrideState: 0
     value: 7
-  color:
-    overrideState: 0
-    value: {r: 1, g: 1, b: 1, a: 1}
+  normalThreshold:
+    overrideState: 1
+    value: 0.2
+  normalRange:
+    overrideState: 1
+    value: 0.2
+  depthRange:
+    overrideState: 1
+    value: 0
