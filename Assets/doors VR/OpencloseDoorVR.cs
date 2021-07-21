@@ -22,6 +22,10 @@ public class OpencloseDoorVR : MonoBehaviour
             float dist = Vector3.Distance(Player.position, transform.position);
             if (dist < 15)
             {
+                if(CustomLaserPointer.instance == null)
+                {
+                    return;
+                }
                 hit = CustomLaserPointer.instance.getHit();
                 if (CustomLaserPointer.instance.LaserHit() && hit.collider.gameObject == gameObject)
                 {
