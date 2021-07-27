@@ -105,7 +105,7 @@ MonoBehaviour:
     overrideState: 0
     value: {r: 1, g: 1, b: 1, a: 1}
   depthThreshold:
-    overrideState: 1
+    overrideState: 0
     value: 1.5
   depthNormalThreshold:
     overrideState: 0
@@ -114,11 +114,8 @@ MonoBehaviour:
     overrideState: 0
     value: 7
   normalThreshold:
-    overrideState: 1
+    overrideState: 0
     value: 0.2
   normalRange:
-    overrideState: 1
+    overrideState: 0
     value: 0.2
-  depthRange:
-    overrideState: 1
-    value: 0
